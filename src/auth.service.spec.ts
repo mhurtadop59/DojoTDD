@@ -1,4 +1,5 @@
 import { AuthService, UsersRepository, User } from './auth.service';
+import { describe, it, expect } from '@jest/globals';
 
 describe('AuthService', () => {
   let service: AuthService;
